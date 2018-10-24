@@ -1,0 +1,71 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+title: "Pricing Swaptions with Monte Carlo"
+author:
+- name: John von Neumann
+  affiliation: School of Hard Knocks 
+abstract: "This paper discusses the ingenuity of Buchanan in proposing economists should study the choices that arise through truck, barter, and exchange. Traditional economists have been concerned with the allocation of scarce resources among competing ends or uses. The error with having this methodology of thinking is the only way that these models truly work is to put completely rational people in a perfectly conditioned economy. In theory, this is a good model. In practice, not so much. By concentrating on exchange rather than choice, economists can better understand economic outcomes by understanding more about human behavior through exchange."
+keywords: "Python, Monte Carlo, simulation, arbitrage"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+spacing: double
+bibliography: ./master.bib
+biblio-style: apsr
+---
+
+
+>  
+
+ Introduction
+ 
+
+
+## Subsection 1: : Buchanan and his ideologies
+
+• Outline what Buchanan’s main point is. 
+James Buchanan argues that the economist should focus in "the theory of markets", instead of the "theory of resource allocation" or "theory of choice, the central idea of the discipline should be the cooperative association of individuals (behaviour of exchange, trade or agreement). He states,”Economistst should concentrate their attention on a particular form of human activity and upon the various institutional arrangements that arise as a result of this form of activity.
+
+• What does Buchanan mean by the word catallatics? 
+He uses it interchangeably with the word symbiotic. Symbiotics is the study of the association between dissimilar organisms and the connotation of the term is that the  association is mutually beneficial to all parties. 
+
+• According to Buchanan what do most economists do? 
+He says that most economists are wholly concerned with the allocation of scarce resources among competing ends or uses.
+
+• What does he think they should do differently?
+They need to quit concerning themselves with allocation problems as it has been defined in the traditional way. They need to recognize them for what they truly are: contributions to applied mathematics, to managerial science but not to the chosen subject field which is called economics. Understand that if the utility function of the choosing agent is fully defined in advance, then the choice becomes purely mechanical. He states,” if I know what I want a  computer can make all of my choices for me. If I do not know what I want no possible computer can derive my utility function since it does not really exist.” He then urges that economists study the unique symbiotic aspects of behavior that arise from exchange or trade. He urges that he wants them to concentrate on “exchange” rather than on choice.
+
+
+
+
+## Subsection 2 : : The dilemma with resource allocation methodology
+
+
+
+# Middle Section
+
+Subsection 3: Choice vs exchange
+
+Subsection 4: What Economists should do
+
+
+# Summary and Conclusion
+
+
+
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
+
