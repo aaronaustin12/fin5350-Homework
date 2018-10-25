@@ -10,7 +10,8 @@ title: "Pricing Swaptions with Monte Carlo"
 author:
 - name: John von Neumann
   affiliation: School of Hard Knocks 
-abstract: "This paper discusses the ingenuity of Buchanan in proposing economists should study the choices that arise through truck, barter, and exchange. Traditional economists have been concerned with the allocation of scarce resources among competing ends or uses. The error with having this methodology of thinking is the only way that these models truly work is to put completely rational people in a perfectly conditioned economy. In theory, this is a good model. In practice, not so much. By concentrating on exchange rather than choice, economists can better understand economic outcomes by understanding more about human behavior through exchange."
+abstract: "This paper acknowledges the writings of Buchanan and dives even deeper into the meaning and implications of what it means to study "the theory of markets". At one point, preference and utility were very arbitrary and vague ideas just as behavior is now. These ideas were transformed into specific formulas that, with a good degree of accuracy, could predict specific individual’s decisions. With the advent of technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of  the “theory of choice” evolves into just another technological problem to compute.."
+
 keywords: "Python, Monte Carlo, simulation, arbitrage"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
@@ -45,16 +46,19 @@ They need to quit concerning themselves with allocation problems as it has been 
 
 
 
-## Subsection 2 : : The dilemma with resource allocation methodology
+##Subsection 2 :It's not about the nail-How economists rush to solve short term problems
 
+##Subsection 3 : The quantification of utility
 
+##Subsection 4: Technology and how it helps economists
 
 # Middle Section
 
-Subsection 3: Choice vs exchange
+##Subsection 5: Quantification of behavior: The next evolutionary step in economics 
 
-Subsection 4: What Economists should do
+##Subsection 6: Implications of behavioral quantification
 
+##subsection 7: Economics: The crafting of tools for mathmatitions to weild
 
 # Summary and Conclusion
 
