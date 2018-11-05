@@ -6,12 +6,12 @@ output:
     fig_caption: true
     latex_engine: pdflatex
     template: ./svm-latex-ms.tex
-title: "Pricing Swaptions with Monte Carlo"
-author:
-- name: John von Neumann
-  affiliation: School of Hard Knocks 
-abstract: "This paper acknowledges the writings of Buchanan and dives even deeper into the meaning and implications of what it means to study "the theory of markets". At one point, preference and utility were very arbitrary and vague ideas just as behavior is now. These ideas were transformed into specific formulas that, with a good degree of accuracy, could predict specific individual’s decisions. With the advent of technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of  the “theory of choice” evolves into just another technological problem to compute.."
+title: "Behavioral Economics"
 
+author:
+- name: Aaron Austin
+  affiliation: Huntsman College of Business
+abstract: "This paper acknowledges the writings of Buchanan and dives even deeper into the meaning and implications of what it means to study "the theory of markets". At one point, preference and utility were very arbitrary and vague ideas just as behavior is now. These ideas were transformed into specific formulas that, with a good degree of accuracy, could predict specific individual’s decisions. With the advent of technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of  the “theory of choice” evolves into just another technological problem to compute
 keywords: "Python, Monte Carlo, simulation, arbitrage"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
@@ -43,6 +43,10 @@ He says that most economists are wholly concerned with the allocation of scarce 
 • What does he think they should do differently?
 They need to quit concerning themselves with allocation problems as it has been defined in the traditional way. They need to recognize them for what they truly are: contributions to applied mathematics, to managerial science but not to the chosen subject field which is called economics. Understand that if the utility function of the choosing agent is fully defined in advance, then the choice becomes purely mechanical. He states,” if I know what I want a  computer can make all of my choices for me. If I do not know what I want no possible computer can derive my utility function since it does not really exist.” He then urges that economists study the unique symbiotic aspects of behavior that arise from exchange or trade. He urges that he wants them to concentrate on “exchange” rather than on choice.
 
+
+
+
+This paper acknowledges the writings of Buchanan and dives even deeper into the meaning and implications of what it means to study "the theory of markets". At one point, preference and utility were very arbitrary and vague ideas just as behavior is now. These ideas were transformed into specific formulas that, with a good degree of accuracy, could predict specific individual’s decisions. With the advent of technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of  the “theory of choice” evolves into just another technological problem to compute.
 
 
 
