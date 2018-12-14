@@ -11,12 +11,11 @@ title: "Behavioral Economics"
 author:
 - name: Aaron Austin
   affiliation: Huntsman College of Business
-abstract: "This paper acknowledges the writings of Buchanan and dives even deeper into the meaning and implications of what it means to study "the theory of markets". At one point, preference and utility were very arbitrary and vague ideas just as behavior is now. These ideas were transformed into specific formulas that, with a good degree of accuracy, could predict specific individual’s decisions. With the advent of technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of  the “theory of choice” evolves into just another technological problem to compute
-keywords: "Python, Monte Carlo, simulation, arbitrage"
+abstract: "This paper acknowledges the writings of Buchanan and then examines the newer branch of economics tagged as Behavioral Economics. The paper discusses the main ideas behind Behavioral Economics and how it will influence economics in the future. This paper supports Buchanan’s thoughts on studying the interactions of people instead of computing a technical problem. The greatest factor in the facilitation of Behavioral Economics is the advent of technology. With technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of the “theory of choice” evolves into just another technological problem to compute."
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
 fontfamily: mathpazo
-fontsize: 11pt
+fontsize: 12pt
 spacing: double
 bibliography: ./master.bib
 biblio-style: apsr
@@ -27,44 +26,92 @@ biblio-style: apsr
 
  Introduction
  
+Subsection 1: Buchannan and his ideologies
+
+James Buchanan argues that the economist should focus in "the theory of markets", instead of the "theory of resource allocation" or "theory of choice, the central idea of the discipline should be the cooperative association of individuals (behavior of exchange, trade or agreement).” He states, ”Economists should concentrate their attention on a particular form of human activity and upon the various institutional arrangements that arise as a result of this form of activity. (@BOOK{Buchanan1979(
+
+Buchanan states that traditional economists are always trying to solve allocation problems. Economists are to concerned with solving technical problems. Technical problems are problems by the fact that there is only on end to be maximized. There is a single best or optimal solution. Economic problems on the other hand, arises when mutually conflicting ends are present and when choices must be made among them. (@BOOK{Buchanan1979)
+
+The dilemma with this is the fact that “once the ends to be maximized are provided by the social welfare function, everything becomes computational.” He gives the example on Robinson Crusoe on the island. While shipwrecked on the island, Buchanan claims that he doesn’t have any economic decision making to do until Friday comes into the picture. Everything up to this point is just a maximization problem waiting to be computed.
+
+He uses the word catalitics interchangeably with the word symbiotic. Symbiotic is the study of the association between dissimilar organisms. The connotation of the term is that the association is mutually beneficial to all parties. Buchanan states that this should be, more or less the central focus of economists. He states that most economists are wholly concerned with the allocation of scarce resources among competing ends or uses.
+
+Buchanan states that economists need to quit concerning themselves with allocation problems as it has been defined in the traditional way. They need to recognize them for what they truly are: contributions to applied mathematics, to managerial science but not to the chosen subject field, which is called economics. 
+
+Understand that if the utility function of the choosing agent is fully defined in advance, then the choice becomes purely mechanical. He states, ”If I know what I want, a computer can make all of my choices for me. If I do not know what I want no possible computer can derive my utility function since it does not really exist.” He then urges that economists study the unique symbiotic aspects of behavior that arise from exchange or trade. He urges that he wants them to concentrate on “exchange” rather than on choice.
+
+One of the biggest problems with economists in the past was the fact that they would take all of these allocation problems and try to apply perfectly rational people in a perfect economy. Unfortunately, in the real world, that is not the case. Humans are irrational and we don’t live in a perfect economy. Although these models are great to help grasp an idea of what would happen in markets, they are far from what actually happens. 
+
+Over the last 40 years, there have been many new economists and psychologists that have recognized that there are key things missing in these models. They have been working and attempting to make various models based on people’s behaviors. This new practice has evolved to what is known as Behavioral Economics. 
+
+Behavioral Economics studies what really happens with irrational people in different circumstances and how different views and different perceptions affect the outcomes people have. Understanding some of the main basic methodologies and theories that have come to pass will help the reader grasp somewhat of an understanding as to how Behavioral Economics fits into the overarching umbrella we call economics. 
+
+Subsection 2 Behavioral Economics: Prospect Theory
+
+While there are many new branches of Behavioral Economics being worked on, a focus on one of the first methodologies looking into Behavioral Economics will help illustrate the ways scientists are trying to understand the behavioral inconsistencies. Two psychologists, Kahneman and Tversky, first started working on a theory called Prospect Theory. This theory investigates the different abnormalities and contradictions in human behavior. These economists said that this theory has its name mainly because it was catchy and attention grabbing.  
+
+Kahneman and Tversky's theory took over thirty years to develop but is very important in economics. In 2002, Daniel Kahneman received the Nobel Prize in Economics but Amos Tversky had unfortunately passed away by that time and did not participate in the fame  (@misc{mill, on liberty, chapter 1 | library of economics and liberty).
+
+Kahneman and Tversky started their research by investigating the different anomalies and contradictions in human behavior. What happened was when the subjects were given a choice, they collected in their own minds a risk-adverse opinion when it came to one scenario but also formed a risk-seeking behavior for another. The example Kahneman gives is: People may drive across town to save $5 on a $15 calculator but not drive across town to save $5 on a $125 coat.
+
+One of the major results found by Kahneman and Tversky’s work was in representing the different attitudes people had toward risks when it came to gains or losses. They found that people’s decisions and behavior didn’t necessarily match up with what economists would compute mathematically.
+
+Another example showing this states that when given a choice between getting $1000 with certainty or having a 50% chance of getting $2500 they may well choose the certain $1000 in preference to the uncertain chance of getting $2500 even though the mathematical expectation of the uncertain option is $1250. This technically means that these people are risk-averse. But Kahneman and Tversky did some more studies and found that these same people would choose the more risky option between a certain loss of $1000 versus a 50% chance of no loss or a $2500 loss. Technically, this is not irrational behavior, but it is good to show the asymmetry of the choices humans make (@misc{mill, on liberty, chapter 1 | library of economics and liberty).
+
+Prospect Theory states that people take gains and losses differently. Because of this, people will base their decisions on the perceived gains that they can receive rather than on perceived losses. Because of that, when people are presented with two equal choices, one in terms of gains and one in terms of losses, the person will probably choose the one emphasizing gains rather than losses. This is interesting because mathematically, they should yield the same result (@misc{phung_2018). 
+
+One thing that Prospect Theory considers is the emotional impact that goes into consideration when making decisions. Prospect Theory says that losses hurt harder than the pleasure the same amount of gains give. 
+
+This implies that individuals are willing to settle for a reasonable level of gains even though they have a chance of earning more than those gians. But if they have an opportunity to limit their losses, they are a lot more likely to engage in risk-seeking behaviors. 
+ 
+Subsection 3: Behavioral Economics: Mental Accounting
+
+Mental Accounting was coined and discovered by another founder of Behavioral Economics: Richard Thaler. This concept states that people think of value in relative terms rather than absolute terms. Thaler has found that people derive pleasure from more than just the object’s value. He found that the quality of the deal and the interaction made also was taken into account when figuring out how much utility something gave a person (@misc{behavioraleconomics.com | the be hub).
+
+From experiments, Thaler found that people treat money differently depending on where it came from, and where they want to spend it. For example, any unexpected gains equates to small windfalls (e.g. a $50 lottery win) and they are usually treated as ‘current income’ that is likely to be spent, whereas large windfalls (e.g. a $5,000 bonus at work) are considered ‘wealth’ (@misc{behavioraleconomics.com | the be hub).
+
+Subsection 4: Behavioral Economics: “Irrational” decision making
+
+This section of Behavioral Economics focuses on prices and value perception. It demonstrates a concept called anchoring, a process whereby a numeric value provides a non-conscious reference point that influences subsequent value perceptions. For example, one study they did was whether or not people would buy a wireless keyboard  for a dollar amount that was equal to the last two digits of their US social security number. Then they were asked about the maximum they would be willing to pay. In the case of cordless keyboards, people in the top 20% of social security numbers were willing to pay three times as much compared to those in the bottom 20%.
+
+Another interesting phenomenon that fits into “Irrational” decision-making is a phenomenon called the zero price effect. What happens is when a product is advertised as free, consumers perceive it as intrinsically more valuable. The example that is frequently used is with chocolate. A free chocolate is disproportionately more attractive relative to a $0.14 chocolate than a $0.01 chocolate is compared to one priced at $0.15. To a rational decision maker a price difference of 14 cents should have the same amount of change in incentive for the product. But for most subjects they consistently determined that the free chocolate held a greater value (@misc{behavioraleconomics.com | the be hub).
+
+Subsection 5: Temporal Dimensions
+
+Temporal Dimensions refers to time-discounting theories. This theory states that present events are weighted more heavily than future ones. For example, people prefer to have $100 now instead of having $110 a month from now. It is important to note that discounting is non-linear and its rate is not constant over time. So people’s choices now and a month from now (like in the above example) will be different if the options were a year from now and a year and a month from now. Even though the gap is still a month in both instances, thte value of the events a year from now falls further and further the farther out it goes. This helps explain why many people have low retirement savings. Having the money now takes precedence over having the money later (@misc{behavioraleconomics.com | the be hub).
+
+Subsection 6: Quantification of Behavioral Economics: The next evolutionary step in economics
+
+Buchanan states that if I know what I want, a computer can make all of my choices for me. If I do not know what I want, no possible computer can derive my utility function since it doesn’t really exist (@article{buchanan1964should). 
+
+To expound on Buchanan, if I know my behavior, (eg. My actions and reactions according to my perception of myself and others) then adding this to my utility function, a computer can make all of my choices and can predict the interactions of the different parties.
+
+The computer can compute with a certain degree of accuracy what the mutual gains will be and whether or not each party would be willing to accept them. Buchanan states, “advances in our understanding of symbiotic relationships may well require considerably more sophisticated mathematical tools than those required in what I have called social engineering (@article{buchanan1964should). He theorizes that the mathematics that would be required to systematize a set of relationships involving voluntary behavior on the part of many persons will be more complicated than that required to solve even the most complex computational problem where the ends are ordered in a single function. 
+
+With the leaps and bounds computers and technology has been taking, it is easy to infer that computers will one day have the computing power needed to gather, store, organize, and process enough data to be able to show economists many new and different behavioral models never before imagined. 
+
+Subsection 7: Economics: the crafting of tools for mathematicians to wield
+
+Throughout time economists have been laboring to create models and functions in order to help others learn what is going on in the markets, what is going on in the nations, and what is happening in the world and how to best help these social and economic institutions continue to run smoothly and properly. 
+
+The Federal Reserve Bank of San Francisco has a web page dedicated to answering economic questions. On this website they state that Economic analysis, both theoretical and empirical, can generate important insights into individual and aggregate behavior and relationships, and help in society's efforts to use scarce resources in a more efficient manner (@misc{federal reserve bank of san francisco_2000). With this in mind it goes to show that economists will continue to try to understand the different social interactions around them and will try to construct models to be able to show how different people in different circumstances will interact in order to get gain and to efficiently allocate resources. 
+
+Economists work tirelessly to create these models for us to use. Once they’re crafted, anyone who understands math can enter the inputs and receive the desired output. Mathematicians are the ones who do the computing, economists are the ones who tell them what and how to compute. From this analysis one can infer that economists will continue to construct bigger and better models in order to help us all understand more about these problems. 
+
+It is easy to infer that one day all of these Behavioral Economic choices, the studies of the interactions between two or more individuals, and all of the irrationality of human behavior will be able to be taken into account and quantified to a high degree of accuracy. They will be able to be entered into these sophisticated models as inputs. Buchanan states that he wants economists to concentrate on “exchange” rather than on choice, but it is easy to infer that someday when our models are sophisticated enough, even Buchanan’s studies of exchange will be quantified and will evolve into technical problems that can and will be handed over to the mathematicians to then be computed.
+
+Summary and Conclusion
+
+Buchanan presents many wonderful ideas on the errors of traditional economists and urges them to take a step back and figure out what economists should really be doing. Traditional economists are missing something. They are missing the fact that there are a lot of behavioral implications that have been over looked. These inconsistencies need to be exploited in order to give a more accurate representation of economic models. Over the last 20-40 years,  various economists and psychologists have been working on different aspects of what is termed as Behavioral Economics. Through these findings, economists are working on understanding and gaining greater understanding on the interactions between two or more persons and the reasons for the irrationality of human behavior.
+
+Buchanan states that understanding the different relationships between two or more people in truck, barter, or exchange is very important. He asserts that they need to quit concerning themselves with allocation problems as it has been defined in the traditional way. All they are doing is solving a technical problem. The problems that most economists consider economic problems simply turn into technical problems. Once the user’s preferences are defined then it turns into another maximization problem. 
+
+Although Buchanan was on the right track in knowing what economists should be focusing on, it begs the question that if preferences can be quantified, who’s to say that behavioral preferences couldn’t be quantified as well? The assertion could be made that someday economists will continue to follow Buchanan’s example in studying the behaviors between others in exchange, but that also one day we will have the computational technology to quantify it. By doing so, Buchanan’s studies of economics turns into yet another technical problem to give to the mathematicians to compute. It is easy to conclude that economists are the forgers of mathematical models and tools for the mathematicians to then use and apply.
 
 
-## Subsection 1: : Buchanan and his ideologies
-
-• Outline what Buchanan’s main point is. 
-James Buchanan argues that the economist should focus in "the theory of markets", instead of the "theory of resource allocation" or "theory of choice, the central idea of the discipline should be the cooperative association of individuals (behaviour of exchange, trade or agreement). He states,”Economistst should concentrate their attention on a particular form of human activity and upon the various institutional arrangements that arise as a result of this form of activity.
-
-• What does Buchanan mean by the word catallatics? 
-He uses it interchangeably with the word symbiotic. Symbiotics is the study of the association between dissimilar organisms and the connotation of the term is that the  association is mutually beneficial to all parties. 
-
-• According to Buchanan what do most economists do? 
-He says that most economists are wholly concerned with the allocation of scarce resources among competing ends or uses.
-
-• What does he think they should do differently?
-They need to quit concerning themselves with allocation problems as it has been defined in the traditional way. They need to recognize them for what they truly are: contributions to applied mathematics, to managerial science but not to the chosen subject field which is called economics. Understand that if the utility function of the choosing agent is fully defined in advance, then the choice becomes purely mechanical. He states,” if I know what I want a  computer can make all of my choices for me. If I do not know what I want no possible computer can derive my utility function since it does not really exist.” He then urges that economists study the unique symbiotic aspects of behavior that arise from exchange or trade. He urges that he wants them to concentrate on “exchange” rather than on choice.
 
 
 
-
-This paper acknowledges the writings of Buchanan and dives even deeper into the meaning and implications of what it means to study "the theory of markets". At one point, preference and utility were very arbitrary and vague ideas just as behavior is now. These ideas were transformed into specific formulas that, with a good degree of accuracy, could predict specific individual’s decisions. With the advent of technology, we are better able to gather, compute, and analyze this data. This paper proposes that future analysis will take into consideration what Buchanan terms “theory of choice” and will be able to transform them into imperial computational data that can then be analyzed. By doing so, future analysis of  the “theory of choice” evolves into just another technological problem to compute.
-
-
-
-##Subsection 2 :It's not about the nail-How economists rush to solve short term problems
-
-##Subsection 3 : The quantification of utility
-
-##Subsection 4: Technology and how it helps economists
-
-# Middle Section
-
-##Subsection 5: Quantification of behavior: The next evolutionary step in economics 
-
-##Subsection 6: Implications of behavioral quantification
-
-##subsection 7: Economics: The crafting of tools for mathmatitions to weild
-
-# Summary and Conclusion
 
 
 
